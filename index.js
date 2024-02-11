@@ -29,7 +29,7 @@ const bookingsRouter = require('./routes/bookingsRouter');
 
 const port = process.env.PORT || 3000;
 
-// Use the user routes
+// Use the user routess
 app.use('/user',userRoute);
 app.use('/admin',adminRouter);
 app.use('/movie',movieRouter)
